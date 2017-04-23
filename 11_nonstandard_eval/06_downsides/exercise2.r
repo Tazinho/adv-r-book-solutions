@@ -5,4 +5,4 @@
 
 # Using formulas in this manner would allow for referential transparency,
 # but it would make working with NSE much more verbose.  In any situation in which
-# it is worth using NSE, it would also be worth not using formulas like this.
+# it is worth using NSE, it would also be worth using formulas like this.
