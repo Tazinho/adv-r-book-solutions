@@ -14,13 +14,12 @@ pryr::ast("a")
 # \- "a"
 
 # Integer
-pryr::ast(1)
+pryr::ast(1L)
 # \- 1
 
 # Double
 pryr::ast(1.0)
 # \- 1
-# Uh oh, looks like doubles don't work.
 
 # Logical
 pryr::ast(TRUE)
@@ -37,7 +36,6 @@ pryr::ast(1i)
 # Works, though note you can't type `0+1i` directly, because that will invoke
 # addition.
 
-# So it looks like doubles don't render correctly and raws are technologically
-# impossible.
+# So raws are technologically impossible.
 
 # TODO: Don't know why this is.
